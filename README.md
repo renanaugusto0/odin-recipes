@@ -1,1 +1,2 @@
 # odin-recipes
+Dedicated repository for projects from the so-called “Odin Project”, whose premise is to deliver high-quality programming content completely free of charge. Even so, all the code will be written entirely by me.
