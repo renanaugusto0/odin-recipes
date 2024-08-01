@@ -18,3 +18,9 @@ li {
 p {
     font-size: 20px;
 }
+#legend {
+    color: lightyellow;
+}
+.navegacao {
+    color: purple;
+}
