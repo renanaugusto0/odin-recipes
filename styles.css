@@ -1,6 +1,8 @@
 * {
     background-color: rgb(0, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     color: white;
@@ -37,5 +39,4 @@ table{
 }
 img {
     width: 25%;
-    height: auto;
 }
