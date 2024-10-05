@@ -35,3 +35,7 @@ table{
     flex-direction: row;
     width: 80%;
 }
+img {
+    width: 25%;
+    height: auto;
+}
