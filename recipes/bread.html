@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bread | Recipe</title>
-    <link rel="stylesheet" href="../styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin-Recipes | Salty</title>
+        <link rel="shortcut icon" href="show.jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
+        <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="alinha">
         <h1>Bread</h1>
+        <center>
+            <div id="CARROSELDOMAL" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="../images/bread.jpg" alt="pão preto">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="../images/bread2.jpg" alt="Pão do mal">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="../images/bread3.jpg" alt="pão maligno">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#CARROSELDOMAL" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previus</span>
+                </a>
+                <a class="carousel-control-next" href="#CARROSELDOMAL" role="button" data-slide="next" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%);">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                </a>
+            </div>
+        </center>
         <figure class="branco" >
             <img src="../images/bread.jpg" alt="Image of a very nice and delicious Bread" width="350px" weight="350px">
             <figcaption>The aroma of warm yeast and grains wafts from the bread, inviting you to tear off a piece and savor its comforting taste.</figcaption>
